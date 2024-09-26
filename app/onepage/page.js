@@ -21,7 +21,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={4} footerStyle={1}>
+            <Layout headerStyle={1} footerStyle={1}>
                 <Banner />
                 <Feature />
                 <About />
@@ -29,12 +29,10 @@ export default function Home() {
                 <WhyChooseUs />
                 <Funfacts />
                 <Team />
-                <Video />
                 <Process />
                 <Testimonial />
                 <Pricing />
                 <News />
-                <Subscribe />
             </Layout>
         </>
     )

@@ -52,9 +52,9 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                             {/* Menu Right Content */}
                             <ul className="menu-right-content">
 
-                                <li className="search-box-outer search-toggler" onClick={handlePopup}>
+                                {/* <li className="search-box-outer search-toggler" onClick={handlePopup}>
                                     <i className="icon-27"></i>
-                                </li>
+                                </li> */}
                                 <li className="nav-btn nav-toggler navSidebar-button clearfix" onClick={handleSidebar}>
                                     <i className="icon-28"></i>
                                 </li>
